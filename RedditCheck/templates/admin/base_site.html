@@ -1,0 +1,24 @@
+{% extends "admin/base.html" %}
+
+{% load static %}
+
+{% block branding %}
+<h1 id="site-name" style=""><a href="{% url 'admin:index' %}">RedditCheck | Threat Intelligence Service </a></h1><br>
+
+{% endblock %}
+
+
+
+
+{% block extrastyle %}
+ 
+
+{{ block.super }}
+
+<style type="text/css">
+#header { background-image: url({% static '../media/images/logo-white.png' %}); Height: 130px;  width:100%; background-repeat: no-repeat;background-color: black;padding-top: 90px; }
+#user-tools {margin-right: 24px;}
+</style>
+ 
+{% endblock %}
+ 
