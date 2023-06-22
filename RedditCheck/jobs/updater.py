@@ -1,6 +1,5 @@
 from datetime import datetime
 from apscheduler.schedulers.background import BackgroundScheduler
-from apscheduler.schedulers.background import BlockingScheduler
 from .jobs import schedule_api
 
 def start():
