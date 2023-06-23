@@ -11,10 +11,11 @@ https://github.com/melihi/RedditCheck/assets/17669771/6a3abba8-e7cf-4bae-a7e4-06
 ## Key features
 - Take screenshots of Reddit post
 - Crawl
-  - Comment
+  - Comments
   - User id
   - Username
   - post url
+  - post id
   - upvote
 - Live Dashboard  
   - Every 3 seconds all data updating in dashboard screen
@@ -29,8 +30,9 @@ https://github.com/melihi/RedditCheck/assets/17669771/6a3abba8-e7cf-4bae-a7e4-06
 ```
 python manage.py runserver
 ```
-After the runserver command login admin panel and then add your subreddits . 1 minute later crawling will be start .
-**Default user credential admin:admin . The database and default user were left intentionally. 
+- **http://127.0.0.1:8000/admin**
+  - After the runserver command login admin panel and then add your subreddits . 1 minute later crawling will be start .
+**Default user credential admin:admin** . The database and default user were left intentionally. 
 
 # Docker 
 ```
