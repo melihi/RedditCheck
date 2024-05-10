@@ -10,7 +10,7 @@ class RedditCrawl(models.Model):
     Date = models.CharField(max_length=20,default="")
     Comment_Log = models.TextField(default="")
     Content = models.TextField(default="")
-    Upvote = models.CharField(max_length=20,default="")
+    Upvote = models.CharField(max_length=20,default="",null=True)
     Search_Start = models.DateTimeField("Start Time")
     Search_Finished = models.DateTimeField("Finish Time",auto_now_add=True)
     Post_Link = models.TextField(default="")

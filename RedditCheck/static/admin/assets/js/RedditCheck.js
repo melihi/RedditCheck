@@ -81,7 +81,7 @@ setInterval(function () {
             // Get keys and values using Object.keys() and forEach()
             Object.keys(data.Total_Crawls_Subreddit).forEach(function (key) {
                 var value = data.Total_Crawls_Subreddit[key];
-
+                console.log(key + " : " + value);
                 setBar(key, value);
 
             });
